@@ -46,7 +46,7 @@ extension ColorManager {
             let greenValue = green ? randomRGBValue: 0.0
             let blueValue = blue ? randomRGBValue: 0.0
             let color = UIColor(red: redValue / maxRGBFloatValue, green: greenValue / maxRGBFloatValue, blue: blueValue / maxRGBFloatValue, alpha: 1.0)
-            let colorName = String(format: "R: %.0f, G: %.0f, B: %.0f, A: %.0f", arguments: [redValue, greenValue, blueValue, 1])
+            let colorName = String(format: "R: %.0f, G: %.0f, B: %.0f, A: %.0f", arguments: [redValue, greenValue, blueValue, 1.0])
             let colorViewModel = ColorViewModel(name: colorName, color: color, isSelected: false)
             colors.append(colorViewModel)
         }

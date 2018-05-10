@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TextEntryCell.textFieldShouldReturn(_:):TextEntryCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddCreditCardViewController.cardDetailCellFor(_:_:):AddCreditCardViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellType.rawValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TextEntryCell.textFieldDidBeginEditing(_:):TextEntryCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "AddressSectionCellType.state.rawValue">
+            </PersistentString>
+            <PersistentString
+               value = "textField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddCreditCardViewController.addressCellFor(_:_:):AddCreditCardViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.textField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreditCardsViewController.tableView(_:numberOfRowsInSection:):CreditCardsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "creditCards.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreditCard.isFilledOut.getter:CreditCard.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "address.isFilledOut">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Address.isFilledOut.getter:Address.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AddCreditCardViewController.pickerView(_:didSelectRow:inComponent:):AddCreditCardViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myPickerData[row]">
+            </PersistentString>
+            <PersistentString
+               value = "statePickerData[row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

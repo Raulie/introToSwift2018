@@ -34,8 +34,6 @@ extension TextEntryCell: UITextFieldDelegate {
         guard let currentText = textField.text else { return true }
         
         let expectedText = (currentText as NSString).replacingCharacters(in: range, with: string)
-        
-        delegate?.didUpdateField(expectedText, cardDetailCellType, addressCellType)
 
         if cardDetailCellType == CardDetailSectionCellType.expirationDate {
             if currentText.count == 2 {
@@ -56,6 +54,8 @@ extension TextEntryCell: UITextFieldDelegate {
                 return false
             }
         }
+        
+        delegate?.didUpdateField(expectedText, cardDetailCellType, addressCellType)
         
         return true
     }
